@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color-one: #DB4444;
+    --color-bg: #F5F5F5;
+    --color-bder: #B3B3B3;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    position: relative;
+    padding: 0;
+}
+
+/* box item */
+.inner-list .inner-image{
+    background-color: var(--color-bg);
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-list .inner-image img{
+    padding-top: 15px;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
+.inner-list .inner-image .inner-disc{
+    padding: 3px 9px;
+    font-size: 10px;
+    color: white;
+    background-color: var(--color-one);
+    width: 40px;
+    border-radius: 3px;
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+}
+.inner-list .inner-image i{
+    position: absolute;   
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.inner-list .inner-image .wishlist{
+    top: 0px;
+    right: 20px;
+}
+.inner-list .inner-image .detail{
+    top: 50px;
+    right: 20px;
+}
+.inner-box .inner-detail{
+    padding-top: 20px;
+}
+.inner-box .inner-detail .name{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.inner-box .inner-detail .price{
+    padding-bottom: 10px;
+}
+.inner-box .inner-detail .new-price{
+    color: var(--color-one);
+    padding-right: 10px;
+}
+.inner-box .inner-detail .old-price{
+    color: rgb(142, 127, 107);
+    text-decoration: line-through;
+}
+.inner-box .inner-detail .feedback i{
+    color: #FFAD33;
+}
+.inner-box .inner-detail .feedback span{
+    color: rgb(142, 127, 107);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.btn-red{
+    background-color: var(--color-one);
+    padding: 10px 40px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.btn-red:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+/* End box item */
+
+.breadcrumb{
+    margin-top: 60px;
+    padding: 0;
+    background-color: white;
+}

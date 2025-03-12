@@ -1,0 +1,81 @@
+.header{
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0; 
+    /* để không bị dính vào thẻ dưới */
+    left: 0;
+    width: 100%;
+}
+
+.header .inner-main{
+    padding:  10px 0;
+}
+.header .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .inner-logo img{
+    width: 70px;
+    height: auto;
+}
+.header .inner-logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-one);
+}
+.header .inner-menu{  
+    justify-content: center;
+    align-items: center;
+}
+.header .inner-menu ul{
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+}
+.header .inner-menu ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.header .inner-menu li{
+    list-style-type: none;
+    padding-right: 60px;
+}
+.header .inner-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header .inner-box button{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.header .inner-box i{
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.header .inner-box .inner-find{
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header .inner-box .inner-find input{
+    border: 0;
+    padding: 5px 20px;
+    padding-right: 0;
+    color: #9A9A9B;
+}
+.header .inner-box .inner-find input:focus-visible{
+    outline: none;
+}
+.header .inner-box .inner-find .find{
+    color: black;
+    padding: 0 10px;
+}
